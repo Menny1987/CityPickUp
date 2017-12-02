@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, MKMapViewDelegate {
+    
+    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var actionBtn: RoundedShodowButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        mapView.delegate = self
         
     }
 
   
+    @IBAction func actionBtnWasPressed(_ sender: Any) {
+        actionBtn.animatedButton(shouldLoad: true, withMessage: nil)
+    }
+    
 
 }
 

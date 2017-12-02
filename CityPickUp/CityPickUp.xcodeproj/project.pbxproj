@@ -12,6 +12,12 @@
 		3BBF10EE1FC6109300A4E65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF10EC1FC6109300A4E65C /* Main.storyboard */; };
 		3BBF10F01FC6109300A4E65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF10EF1FC6109300A4E65C /* Assets.xcassets */; };
 		3BBF10F31FC6109300A4E65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF10F11FC6109300A4E65C /* LaunchScreen.storyboard */; };
+		3BC60EF61FD1BCF7002BA92E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC60EF51FD1BCF7002BA92E /* GradientView.swift */; };
+		3BD419A61FD2C4CD008FC043 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419A51FD2C4CD008FC043 /* RoundImageView.swift */; };
+		3BD419A81FD2C5E3008FC043 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419A71FD2C5E3008FC043 /* RoundedShadowView.swift */; };
+		3BD419AA1FD2C6E2008FC043 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419A91FD2C6E2008FC043 /* CircleView.swift */; };
+		3BD419AC1FD2CE5A008FC043 /* RoundedShodowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419AB1FD2CE5A008FC043 /* RoundedShodowButton.swift */; };
+		C21628C899F32120B05F6470 /* Pods_CityPickUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CA39E53BF4C07D4B5E58AB /* Pods_CityPickUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		3BBF10EF1FC6109300A4E65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBF10F21FC6109300A4E65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBF10F41FC6109300A4E65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC60EF51FD1BCF7002BA92E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3BD419A51FD2C4CD008FC043 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		3BD419A71FD2C5E3008FC043 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		3BD419A91FD2C6E2008FC043 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3BD419AB1FD2CE5A008FC043 /* RoundedShodowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShodowButton.swift; sourceTree = "<group>"; };
+		66CA39E53BF4C07D4B5E58AB /* Pods_CityPickUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityPickUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB0092131AF22A71178AD91 /* Pods-CityPickUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityPickUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityPickUp/Pods-CityPickUp.release.xcconfig"; sourceTree = "<group>"; };
+		F0DC2A17870FD845E1539F86 /* Pods-CityPickUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityPickUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityPickUp/Pods-CityPickUp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21628C899F32120B05F6470 /* Pods_CityPickUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				3BBF10E71FC6109300A4E65C /* CityPickUp */,
 				3BBF10E61FC6109300A4E65C /* Products */,
+				F2978499D6A3885EDD3BAB8A /* Pods */,
+				92F2808258A9F80590CA3B74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +71,9 @@
 		3BBF10E71FC6109300A4E65C /* CityPickUp */ = {
 			isa = PBXGroup;
 			children = (
+				3BC60EF41FD1BCD2002BA92E /* Model */,
+				3BC60EF31FD1BCC1002BA92E /* View */,
+				3BC60EF21FD1BCAB002BA92E /* Controller */,
 				3BBF10E81FC6109300A4E65C /* AppDelegate.swift */,
 				3BBF10EA1FC6109300A4E65C /* ViewController.swift */,
 				3BBF10EC1FC6109300A4E65C /* Main.storyboard */,
@@ -64,6 +84,49 @@
 			path = CityPickUp;
 			sourceTree = "<group>";
 		};
+		3BC60EF21FD1BCAB002BA92E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BC60EF31FD1BCC1002BA92E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC60EF51FD1BCF7002BA92E /* GradientView.swift */,
+				3BD419A51FD2C4CD008FC043 /* RoundImageView.swift */,
+				3BD419A71FD2C5E3008FC043 /* RoundedShadowView.swift */,
+				3BD419A91FD2C6E2008FC043 /* CircleView.swift */,
+				3BD419AB1FD2CE5A008FC043 /* RoundedShodowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC60EF41FD1BCD2002BA92E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92F2808258A9F80590CA3B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66CA39E53BF4C07D4B5E58AB /* Pods_CityPickUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2978499D6A3885EDD3BAB8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0DC2A17870FD845E1539F86 /* Pods-CityPickUp.debug.xcconfig */,
+				9FB0092131AF22A71178AD91 /* Pods-CityPickUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BBF10F71FC6109400A4E65C /* Build configuration list for PBXNativeTarget "CityPickUp" */;
 			buildPhases = (
+				EC20F33A45335DDA5FD0B7A9 /* [CP] Check Pods Manifest.lock */,
 				3BBF10E11FC6109300A4E65C /* Sources */,
 				3BBF10E21FC6109300A4E65C /* Frameworks */,
 				3BBF10E31FC6109300A4E65C /* Resources */,
+				132B04C96D30C22EB146082D /* [CP] Embed Pods Frameworks */,
+				5646418AA60EC2DCA16D2201 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +197,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		132B04C96D30C22EB146082D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityPickUp/Pods-CityPickUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5646418AA60EC2DCA16D2201 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityPickUp/Pods-CityPickUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC20F33A45335DDA5FD0B7A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BBF10E11FC6109300A4E65C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD419AA1FD2C6E2008FC043 /* CircleView.swift in Sources */,
 				3BBF10EB1FC6109300A4E65C /* ViewController.swift in Sources */,
+				3BD419AC1FD2CE5A008FC043 /* RoundedShodowButton.swift in Sources */,
+				3BD419A61FD2C4CD008FC043 /* RoundImageView.swift in Sources */,
+				3BD419A81FD2C5E3008FC043 /* RoundedShadowView.swift in Sources */,
 				3BBF10E91FC6109300A4E65C /* AppDelegate.swift in Sources */,
+				3BC60EF61FD1BCF7002BA92E /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +391,7 @@
 		};
 		3BBF10F81FC6109400A4E65C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DC2A17870FD845E1539F86 /* Pods-CityPickUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +407,7 @@
 		};
 		3BBF10F91FC6109400A4E65C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB0092131AF22A71178AD91 /* Pods-CityPickUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
