@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2D79391FD2FF410057A2BF /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D79381FD2FF410057A2BF /* ContainerVC.swift */; };
+		3B2D793C1FD302500057A2BF /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D793B1FD302500057A2BF /* CenterVCDelegate.swift */; };
+		3B2D793F1FD404F40057A2BF /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D793E1FD404F40057A2BF /* UIViewExt.swift */; };
+		3B2D79411FD4537C0057A2BF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D79401FD4537C0057A2BF /* LoginVC.swift */; };
 		3BBF10E91FC6109300A4E65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF10E81FC6109300A4E65C /* AppDelegate.swift */; };
-		3BBF10EB1FC6109300A4E65C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF10EA1FC6109300A4E65C /* ViewController.swift */; };
 		3BBF10EE1FC6109300A4E65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF10EC1FC6109300A4E65C /* Main.storyboard */; };
 		3BBF10F01FC6109300A4E65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF10EF1FC6109300A4E65C /* Assets.xcassets */; };
 		3BBF10F31FC6109300A4E65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF10F11FC6109300A4E65C /* LaunchScreen.storyboard */; };
@@ -17,13 +20,18 @@
 		3BD419A81FD2C5E3008FC043 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419A71FD2C5E3008FC043 /* RoundedShadowView.swift */; };
 		3BD419AA1FD2C6E2008FC043 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419A91FD2C6E2008FC043 /* CircleView.swift */; };
 		3BD419AC1FD2CE5A008FC043 /* RoundedShodowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419AB1FD2CE5A008FC043 /* RoundedShodowButton.swift */; };
+		3BD419B01FD2F33D008FC043 /* RightSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD419AF1FD2F33D008FC043 /* RightSidePanelVC.swift */; };
+		3BF1A8C51FD2F610008ECB39 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1A8C41FD2F610008ECB39 /* HomeVC.swift */; };
 		C21628C899F32120B05F6470 /* Pods_CityPickUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CA39E53BF4C07D4B5E58AB /* Pods_CityPickUp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2D79381FD2FF410057A2BF /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		3B2D793B1FD302500057A2BF /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		3B2D793E1FD404F40057A2BF /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3B2D79401FD4537C0057A2BF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		3BBF10E51FC6109300A4E65C /* CityPickUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPickUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBF10E81FC6109300A4E65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BBF10EA1FC6109300A4E65C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BBF10ED1FC6109300A4E65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BBF10EF1FC6109300A4E65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBF10F21FC6109300A4E65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +41,8 @@
 		3BD419A71FD2C5E3008FC043 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		3BD419A91FD2C6E2008FC043 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		3BD419AB1FD2CE5A008FC043 /* RoundedShodowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShodowButton.swift; sourceTree = "<group>"; };
+		3BD419AF1FD2F33D008FC043 /* RightSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSidePanelVC.swift; sourceTree = "<group>"; };
+		3BF1A8C41FD2F610008ECB39 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		66CA39E53BF4C07D4B5E58AB /* Pods_CityPickUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityPickUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB0092131AF22A71178AD91 /* Pods-CityPickUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityPickUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityPickUp/Pods-CityPickUp.release.xcconfig"; sourceTree = "<group>"; };
 		F0DC2A17870FD845E1539F86 /* Pods-CityPickUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityPickUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityPickUp/Pods-CityPickUp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2D793A1FD3023E0057A2BF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D793B1FD302500057A2BF /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3B2D793D1FD404DD0057A2BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D793E1FD404F40057A2BF /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3BBF10DC1FC6109300A4E65C = {
 			isa = PBXGroup;
 			children = (
@@ -71,11 +97,12 @@
 		3BBF10E71FC6109300A4E65C /* CityPickUp */ = {
 			isa = PBXGroup;
 			children = (
+				3B2D793D1FD404DD0057A2BF /* Extensions */,
+				3B2D793A1FD3023E0057A2BF /* Protocols */,
 				3BC60EF41FD1BCD2002BA92E /* Model */,
 				3BC60EF31FD1BCC1002BA92E /* View */,
 				3BC60EF21FD1BCAB002BA92E /* Controller */,
 				3BBF10E81FC6109300A4E65C /* AppDelegate.swift */,
-				3BBF10EA1FC6109300A4E65C /* ViewController.swift */,
 				3BBF10EC1FC6109300A4E65C /* Main.storyboard */,
 				3BBF10EF1FC6109300A4E65C /* Assets.xcassets */,
 				3BBF10F11FC6109300A4E65C /* LaunchScreen.storyboard */,
@@ -87,6 +114,10 @@
 		3BC60EF21FD1BCAB002BA92E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3BD419AF1FD2F33D008FC043 /* RightSidePanelVC.swift */,
+				3BF1A8C41FD2F610008ECB39 /* HomeVC.swift */,
+				3B2D79381FD2FF410057A2BF /* ContainerVC.swift */,
+				3B2D79401FD4537C0057A2BF /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2D793C1FD302500057A2BF /* CenterVCDelegate.swift in Sources */,
 				3BD419AA1FD2C6E2008FC043 /* CircleView.swift in Sources */,
-				3BBF10EB1FC6109300A4E65C /* ViewController.swift in Sources */,
+				3B2D79411FD4537C0057A2BF /* LoginVC.swift in Sources */,
+				3BF1A8C51FD2F610008ECB39 /* HomeVC.swift in Sources */,
+				3BD419B01FD2F33D008FC043 /* RightSidePanelVC.swift in Sources */,
+				3B2D79391FD2FF410057A2BF /* ContainerVC.swift in Sources */,
+				3B2D793F1FD404F40057A2BF /* UIViewExt.swift in Sources */,
 				3BD419AC1FD2CE5A008FC043 /* RoundedShodowButton.swift in Sources */,
 				3BD419A61FD2C4CD008FC043 /* RoundImageView.swift in Sources */,
 				3BD419A81FD2C5E3008FC043 /* RoundedShadowView.swift in Sources */,
